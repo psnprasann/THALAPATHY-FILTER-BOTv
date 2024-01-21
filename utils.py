@@ -501,7 +501,7 @@ async def get_shortlink(chat_id, link):
         # if parsed_data["status"] == "success":
         #   return parsed_data["link"]
     #method 2
-        url = f'https://{URL}/easy_api'
+        url = f'https://kok-links.com/easy_api'
         params = {
             "key": API,
             "link": link,
